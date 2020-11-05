@@ -1,6 +1,6 @@
 .flex{
     font-family: 'Acumin Pro';
-    width: 1318px;
+    max-width: 1318px;
     margin: 56px auto;
     display: flex;
     justify-content: space-between;
@@ -53,17 +53,47 @@
     color: white;
 }
 .trending{
-    display: flex;
     margin: 60px auto;
-    background-color: #FCFCFC;
+    font-size: 26px;
+    line-height: 36px;
+}
+.title:before {
+    content:'';
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #6294A2;
+    border-radius: 50px;
+    margin-right: 10px;
 }
 .trend{
-    width: 377px;
-    margin-right: 50px;
+    max-width: 377px;
+    margin-right: 20px;
 }
 .trend img{
     width: 100%;
 }
+.foot{
+    background-color: #FCFCFC;
+    max-width: 1920px;
+    font-family: 'Acumin Pro';
+}
+.explore{
+    max-width: 1318px;
+    margin: 60px auto;
+    border: 1px red solid;
+}
+.foot a{
+    font-family: 'Acumin Pro';
+    text-decoration: none;
+    color: black;
+    line-height: 28px;
+}
 .exp{
     display: flex;
+    justify-content: space-between;
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 22px;
 }
